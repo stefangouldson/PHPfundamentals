@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(48, 47, 47);
+    color:yellow;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+

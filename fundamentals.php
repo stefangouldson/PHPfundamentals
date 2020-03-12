@@ -32,11 +32,13 @@
 
     //*arrays
     $numbersList = [2,34,21,'Hi','<h2>Hello There</h2>'];
+
     echo $numbersList[4];
     print_r($numbersList);
 
     //*arrays or potentially objects
     $nameList = ["forename" => "Stefan" , "Surname" => "Gouldson"];
+
     print_r($nameList);
     echo "<br>" . $nameList["forename"] . "<br>";
 
@@ -79,6 +81,7 @@
     function saySomething($msg){
         echo "<br>" . $msg;
     };
+    
     saySomething("Said Something");
 
     function addTogether($num1,$num2){
